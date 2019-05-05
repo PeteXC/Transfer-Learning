@@ -1,0 +1,19 @@
+name: deeplearning
+channels:
+- defaults
+- conda-forge
+- pytorch
+dependencies:
+- python=3.7
+- pip
+- scikit-learn
+- tensorflow
+- pytorch
+- libgcc
+- cmake
+- pip:
+    - numpy
+    - pylint
+    - pandas
+    - gym
+  
